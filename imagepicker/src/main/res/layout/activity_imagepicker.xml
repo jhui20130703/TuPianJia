@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black">
+
+        <TextView
+            android:id="@+id/tv_main_imageFolders"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:drawableEnd="@mipmap/icon_album_index"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:text="@string/all_media"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_main_bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_main_images"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_image_time"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/text_bg_gray"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textColor="@color/text_color_white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

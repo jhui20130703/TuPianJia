@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">图片家</string>
+    <string name="title_home">美图</string>
+    <string name="title_wearther">天气</string>
+    <string name="title_setting">更多</string>
+
+    <string name="text_online">美图一</string>
+    <string name="text_local">美图二</string>
+
+    <string name="action_share">分享</string>
+    <string name="action_save">保存</string>
+
+    <string name="action_wearther">天气预报</string>
+    <string name="action_city">选择城市</string>
+    <string name="action_image">本地图片&#038;视频</string>
+    <string name="action_search">物流助手</string>
+    <string name="action_express_code">请输入物流运单号</string>
+
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">確認</string>
+    <string name="dialog_tip">温馨提示</string>
+    <string name="dialog_github">GitHub</string>
+
+</resources>

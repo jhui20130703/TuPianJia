@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="layout">
+        <attr name="left_icon" format="reference|integer" />
+        <attr name="text_content" format="reference|string" />
+        <attr name="text_content_color" format="reference|integer"/>
+        <attr name="right_text" format="reference|string" />
+        <attr name="right_text_color" format="reference|integer"/>
+        <attr name="right_icon" format="reference|integer" />
+        <attr name="left_icon_display" format="boolean" />
+        <attr name="right_icon_display" format="boolean" />
+        <attr name="divider_top_display" format="boolean" />
+        <attr name="divider_buttom_display" format="boolean" />
+    </declare-styleable>
+</resources>
